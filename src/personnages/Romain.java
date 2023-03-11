@@ -1,8 +1,8 @@
 package personnages;
 
 public class Romain {
-	private static String nom;
-	private static int force;
+	private String nom;
+	private int force;
 
 	public Romain(String nom, int force) {
 		this.nom = nom;
