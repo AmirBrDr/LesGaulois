@@ -1,0 +1,18 @@
+package personnages;
+public class Trophee {
+	Gaulois gaulois;
+	Equipement equipement;
+	public Trophee(Gaulois gaulois, Equipement equipement) {
+		this.gaulois = gaulois;
+		this.equipement = equipement;
+	}
+	public Gaulois getGaulois() {
+		return gaulois;
+	}
+	public Equipement getEquipement() {
+		return equipement;
+	}
+	private String donnerNom(Gaulois gaulois) {
+		return gaulois.getNom();
+	}
+}
